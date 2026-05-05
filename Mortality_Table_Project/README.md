@@ -84,14 +84,3 @@ Log-linear regression was used to estimate model parameters and evaluate goodnes
 * Python (optional: regression modeling, data analysis)
 * Statistical modeling (log-linear regression)
 * Actuarial concepts: life tables, survival analysis, mortality modeling
-
----
-
-## Actuarial Relevance
-
-This project demonstrates core actuarial competencies relevant to entry-level roles, including:
-
-* Life table construction and validation
-* Mortality and survival analysis
-* Risk modeling using real-world population data
-* Interpretation of demographic and actuarial trends
