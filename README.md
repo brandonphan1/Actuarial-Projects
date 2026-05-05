@@ -7,7 +7,7 @@
 * Performed gender-based mortality comparison and life expectancy gap analysis
 * Fitted a Gompertz mortality model using log-linear regression
 
-Repository: https://github.com/brandonphan1/mortality_table_project
+Repository: https://github.com/brandonphan1/mortality-table-project
 
 ---
 
@@ -18,7 +18,7 @@ Repository: https://github.com/brandonphan1/mortality_table_project
 * Evaluated model performance and improved interpretability through feature diagnostics
 * Addressed multicollinearity and proxy variable effects to validate model structure
 
-Repository: https://github.com/brandonphan1/auto_insurance_claims_project
+Repository: https://github.com/brandonphan1/auto-insurance-claims-project
 
 ---
 
