@@ -73,6 +73,7 @@ Log-linear regression was used to estimate model parameters and evaluate goodnes
 ## Repository Structure
 
 * Data sourced from the U.S. Social Security Administration (SSA) Period Life Tables: https://www.ssa.gov/oact/STATS/table4c6.html
+* `data/` - cleaned SSA life table dataset
 * `outputs/` — visualizations (survival, mortality, life expectancy, gap)
 * `report/` — actuarial project report (PDF)
 
