@@ -74,7 +74,6 @@ Log-linear regression was used to estimate model parameters and evaluate goodnes
 
 * data - SSA Life Table Cleaned
 * visualizations — Life Expectancy Curve, Mortality Rate Curve, Survival Curve
-* report — Actual Mortality Report
 
 ---
 
