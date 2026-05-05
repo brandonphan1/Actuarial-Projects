@@ -78,14 +78,3 @@ The project emphasizes core property & casualty actuarial concepts, including lo
 * Regression analysis and machine learning
 * Feature importance and model diagnostics
 * Insurance analytics and risk modeling
-
----
-
-## Actuarial Relevance
-
-This project demonstrates key competencies for property & casualty actuarial roles, including:
-
-* Loss severity modeling and risk quantification
-* Identification of key underwriting risk factors
-* Model validation and interpretability
-* Application of data-driven methods to insurance problems
