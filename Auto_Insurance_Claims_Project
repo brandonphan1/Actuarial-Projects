@@ -1,45 +1,79 @@
-# Auto Insurance Claim Severity Modeling
+# Auto Insurance Claims Risk Analysis & Loss Modeling
 
-## Objective
+## Overview
 
-To analyze insurance claim data and build predictive models to estimate claim severity and identify key drivers of risk.
+This project analyzes auto insurance claims data to model claim severity and identify key drivers of insurance risk. Using regression and machine learning techniques, the analysis focuses on explaining variation in loss costs and improving model interpretability for actuarial applications.
+
+The project emphasizes core property & casualty actuarial concepts, including loss modeling, risk segmentation, and feature analysis, while addressing practical modeling challenges such as multicollinearity and proxy variable bias.
 
 ---
 
-## Data
+## Objectives
 
-Dataset includes policyholder demographics, vehicle characteristics, and claim amounts.
+* Model insurance claim severity using statistical and machine learning methods
+* Identify key drivers of loss costs and quantify their impact
+* Evaluate model performance and explanatory power
+* Improve model interpretability by addressing multicollinearity and proxy variables
+* Translate analytical findings into actuarial risk insights
 
 ---
 
 ## Methodology
 
-* Data cleaning and preprocessing
-* Exploratory data analysis (EDA)
-* Linear regression (baseline model)
-* Random Forest (improved model)
-* Feature importance and model interpretation
+### Data Preparation
+
+* Cleaned and structured raw insurance claims dataset
+* Encoded categorical variables for modeling
+* Evaluated data quality and variable distributions
 
 ---
 
-## Results
+### Loss Modeling
 
-* Linear Regression: R² ≈ 0.56
-* Random Forest: R² ≈ 0.81
-* Key drivers: location, premium, vehicle class
-
-Removing premium revealed underlying risk factors such as vehicle class and coverage.
+* Implemented regression and machine learning models to predict claim severity
+* Evaluated model performance using R² and residual analysis
+* Achieved up to 81% explained variance in loss costs
 
 ---
 
-## Key Insights
+### Feature Analysis
 
-* Geographic location is the strongest predictor of claim severity
-* Premium acts as a proxy variable capturing underlying risk
-* Machine learning models significantly improve predictive performance
+* Conducted feature importance analysis to identify primary risk drivers
+* Identified geographic risk (location) as the dominant factor influencing claim severity
+* Assessed relationships between policyholder attributes and loss outcomes
 
 ---
 
-## Tools Used
+### Model Diagnostics & Interpretability
 
-* Python (pandas, scikit-learn, matplotlib)
+* Diagnosed multicollinearity among predictor variables
+* Identified proxy variable effects (e.g., premium-related variables)
+* Re-estimated models after removing leakage variables to validate model structure and robustness
+
+---
+
+## Key Results
+
+* Model explained up to 81% of variation in insurance claim severity
+* Geographic location emerged as the most significant driver of loss costs
+* Income and vehicle-related factors contributed secondary effects
+* Removal of proxy variables improved interpretability and reduced model bias
+* Results highlight the importance of careful feature selection in actuarial modeling
+
+---
+
+## Repository Structure
+
+* `data/` — insurance claims dataset
+* `outputs/` — visualizations and model results
+* `notebooks/` — modeling and analysis code
+* `report/` — project summary (optional)
+
+---
+
+## Tools & Skills
+
+* Python (pandas, scikit-learn)
+* Excel (data exploration and validation)
+* Regression analysis and machine learning
+* Feature importance and model diagnostics
