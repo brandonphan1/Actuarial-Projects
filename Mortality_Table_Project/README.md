@@ -84,3 +84,13 @@ Log-linear regression was used to estimate model parameters and evaluate goodnes
 * Python (optional: regression modeling, data analysis)
 * Statistical modeling (log-linear regression)
 * Actuarial concepts: life tables, survival analysis, mortality modeling
+
+---
+
+## Visualizations
+
+![Survival Curve](outputs/survival_curve.png)
+
+![Mortality Curve](outputs/mortality_curve.png)
+
+![Life Expectancy Curve](outputs/life_expectancy_curve.png)
