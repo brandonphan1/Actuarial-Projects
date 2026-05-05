@@ -67,7 +67,6 @@ The project emphasizes core property & casualty actuarial concepts, including lo
 * `data/` — insurance claims dataset
 * `outputs/` — visualizations and model results
 * `notebooks/` — modeling and analysis code
-* `report/` — project summary
 
 ---
 
