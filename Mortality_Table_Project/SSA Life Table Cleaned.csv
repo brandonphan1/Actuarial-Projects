@@ -1,11 +1,11 @@
 "Exact
 age (x)",Male,,,Female,,,,,,,,,,,,,,
 ,"Death(qx)
-probability a","Number of(lx)
-lives b","Life(ex)
+probabilityÂ a","Number of(lx)
+livesÂ b","Life(ex)
 expectancy","Death(qx)
-probability a","Number of
-lives b(lx)","Life(ex)
+probabilityÂ a","Number of
+livesÂ b(lx)","Life(ex)
 expectancy",Probability of Survival (px),Survivor's next age (lx+1),Deaths (dx),,,,,,,,,
 0,0.006064,"100,000",74.74,0.005119,"100,000",80.18,0.993936,99393.6,606,,,,,,,,,
 1,0.000491,"99,394",74.2,0.000398,"99,488",79.6,0.999509,99345.19755,49,,,,,,,,,
