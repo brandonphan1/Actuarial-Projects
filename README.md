@@ -1,40 +1,30 @@
-# Actuarial-Projects
-Contains selected projects demonstrating skills in actuarial modeling, data analysis, and risk assessment using Python and statistical methods
+## Featured Projects
+
+### Actuarial Mortality Analysis & Life Table Modeling
+
+* Constructed a full actuarial life table using U.S. SSA data (qx, lx, ex)
+* Analyzed survival patterns and age-dependent mortality behavior
+* Performed gender-based mortality comparison and life expectancy gap analysis
+* Fitted a Gompertz mortality model using log-linear regression
+
+Repository: https://github.com/brandonphan1/mortality_table_project
 
 ---
 
-## Projects
+### Auto Insurance Claims Risk Analysis & Loss Modeling
 
-### Auto Insurance Claim Severity Modeling
+* Modeled insurance claim severity using regression and machine learning (R² up to 0.81)
+* Identified key risk drivers, with geographic location as the dominant factor
+* Evaluated model performance and improved interpretability through feature diagnostics
+* Addressed multicollinearity and proxy variable effects to validate model structure
 
-* Modeled insurance claim severity using regression and machine learning techniques (R² up to 0.81)
-* Identified key risk drivers including location, vehicle class, and coverage level
-* Demonstrated impact of proxy variables on model interpretability
-
-[View Project](./auto-insurance-claims)
-
----
-
-### Mortality Table & Life Expectancy Analysis
-
-* Constructed a mortality table using U.S. life table data
-* Calculated survival probabilities and life expectancy across ages
-* Applied actuarial formulas to estimate present value of life insurance
-
-[View Project](./mortality-analysis)
+Repository: https://github.com/brandonphan1/auto_insurance_claims_project
 
 ---
 
-## Skills Demonstrated
+## Technical Skills
 
-* Actuarial Modeling (Severity, Mortality)
-* Statistical Analysis & Machine Learning
-* Data Cleaning & Feature Engineering
-* Python (pandas, scikit-learn, matplotlib)
-* Risk Analysis & Interpretation
-
----
-
-## Career Objective
-
-Aspiring actuary seeking to apply quantitative and analytical skills to solve real-world risk and financial problems in insurance and related fields.
+* **Programming:** Python (pandas, scikit-learn), SQL
+* **Tools:** Excel, Jupyter Notebook
+* **Methods:** Regression modeling, machine learning, statistical analysis
+* **Actuarial Concepts:** Life tables, mortality modeling, loss severity analysis
