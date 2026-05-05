@@ -1,0 +1,45 @@
+# Auto Insurance Claim Severity Modeling
+
+## Objective
+
+To analyze insurance claim data and build predictive models to estimate claim severity and identify key drivers of risk.
+
+---
+
+## Data
+
+Dataset includes policyholder demographics, vehicle characteristics, and claim amounts.
+
+---
+
+## Methodology
+
+* Data cleaning and preprocessing
+* Exploratory data analysis (EDA)
+* Linear regression (baseline model)
+* Random Forest (improved model)
+* Feature importance and model interpretation
+
+---
+
+## Results
+
+* Linear Regression: R² ≈ 0.56
+* Random Forest: R² ≈ 0.81
+* Key drivers: location, premium, vehicle class
+
+Removing premium revealed underlying risk factors such as vehicle class and coverage.
+
+---
+
+## Key Insights
+
+* Geographic location is the strongest predictor of claim severity
+* Premium acts as a proxy variable capturing underlying risk
+* Machine learning models significantly improve predictive performance
+
+---
+
+## Tools Used
+
+* Python (pandas, scikit-learn, matplotlib)
